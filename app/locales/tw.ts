@@ -10,7 +10,7 @@ const tw: LocaleType = {
     ChatItemCount: (count: number) => `${count} 條對話`,
   },
   Chat: {
-    SubTitle: (count: number) => `您已經與 ChatGPT 進行了 ${count} 條對話`,
+    SubTitle: (count: number) => `您已經與 XYZ AI 進行了 ${count} 條對話`,
     Actions: {
       ChatList: "查看訊息列表",
       CompressedHistory: "查看壓縮後的歷史 Prompt",
@@ -40,7 +40,7 @@ const tw: LocaleType = {
     Copy: "複製全部",
     Download: "下載檔案",
     MessageFromYou: "來自您的訊息",
-    MessageFromChatGPT: "來自 ChatGPT 的訊息",
+    MessageFromChatGPT: "來自 XYZ AI 的訊息",
   },
   Memory: {
     Title: "上下文記憶 Prompt",
@@ -94,7 +94,7 @@ const tw: LocaleType = {
       CheckUpdate: "檢查更新",
       IsChecking: "正在檢查更新...",
       FoundUpdate: (x: string) => `發現新版本：${x}`,
-      GoToUpdate: "前往更新",
+      GoToUpdate: "",
     },
     SendKey: "發送鍵",
     Theme: "主題",
@@ -134,9 +134,9 @@ const tw: LocaleType = {
       SubTitle: "當未壓縮的歷史訊息超過該值時，將進行壓縮",
     },
     Token: {
-      Title: "API Key",
-      SubTitle: "使用自己的 Key 可規避授權存取限制",
-      Placeholder: "OpenAI API Key",
+      Title: "啟動碼",
+      SubTitle: "使用自己的 XYZCLoud啟動碼 可規避授權訪問限制",
+      Placeholder: "XYZCLoud啟動碼",
     },
     MjKey: {
       Title: "MJ API 金鑰",
@@ -163,11 +163,11 @@ const tw: LocaleType = {
     Usage: {
       Title: "帳戶餘額",
       SubTitle(used: any, total: any) {
-        return `本月已使用 $${used}，訂閱總額 $${total}`;
+        return `本月已使用 $${used}，订阅总额 $${total}`;
       },
       IsChecking: "正在檢查…",
       Check: "重新檢查",
-      NoAccess: "輸入API Key查看餘額",
+      NoAccess: "輸入XYZCLoud啟動碼查看餘額",
     },
     AccessCode: {
       Title: "授權碼",
@@ -190,7 +190,7 @@ const tw: LocaleType = {
   },
   Store: {
     DefaultTopic: "新的對話",
-    BotHello: "請問需要我的協助嗎？",
+    BotHello: "你好！我是XYZCLoud的AI，請問有什麼可以幫你的嗎？ 👋",
     Error: "出錯了，請稍後再嘗試",
     Prompt: {
       History: (content: string) =>
