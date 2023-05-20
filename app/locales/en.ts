@@ -11,7 +11,7 @@ const en: LocaleType = {
     ChatItemCount: (count: number) => `${count} messages`,
   },
   Chat: {
-    SubTitle: (count: number) => `${count} messages with ChatGPT`,
+    SubTitle: (count: number) => `${count} messages with XYZ AI`,
     Actions: {
       ChatList: "Go To Chat List",
       CompressedHistory: "Compressed History Memory Prompt",
@@ -41,7 +41,7 @@ const en: LocaleType = {
     Copy: "Copy All",
     Download: "Download",
     MessageFromYou: "Message From You",
-    MessageFromChatGPT: "Message From ChatGPT",
+    MessageFromChatGPT: "Message From XYZ AI",
   },
   Memory: {
     Title: "Memory Prompt",
@@ -96,7 +96,7 @@ const en: LocaleType = {
       CheckUpdate: "Check Update",
       IsChecking: "Checking update...",
       FoundUpdate: (x: string) => `Found new version: ${x}`,
-      GoToUpdate: "Update",
+      GoToUpdate: "",
     },
     SendKey: "Send Key",
     Theme: "Theme",
@@ -137,9 +137,9 @@ const en: LocaleType = {
         "Will compress if uncompressed messages length exceeds the value",
     },
     Token: {
-      Title: "API Key",
-      SubTitle: "Use your key to ignore access code limit",
-      Placeholder: "OpenAI API Key",
+      Title: "XYZCLoud activation code",
+      SubTitle: "Use your Activation code to ignore access code limit",
+      Placeholder: "XYZCLoud activation code",
     },
     MjKey: {
       Title: "MJ API Key",
@@ -170,7 +170,7 @@ const en: LocaleType = {
       },
       IsChecking: "Checking...",
       Check: "Check",
-      NoAccess: "Enter API Key to check balance",
+      NoAccess: "Enter XYZCLoud activation code to check balance",
     },
     AccessCode: {
       Title: "Access Code",
@@ -194,7 +194,7 @@ const en: LocaleType = {
   },
   Store: {
     DefaultTopic: "New Conversation",
-    BotHello: "Hello! How can I assist you today?",
+    BotHello: "Hello! I am the AI of XYZCLoud. How can I assist you today? 👋",
     Error: "Something went wrong, please try again later.",
     Prompt: {
       History: (content: string) =>
